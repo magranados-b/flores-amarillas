@@ -2,11 +2,11 @@ import { Routes } from '@angular/router';
 
 export const routes: Routes = [
   {
-    path: 'flores',
+    path: 'dedicatoria',
     loadComponent: () => import('./home/home.component'),
   },
     {
     path: '**',
-    redirectTo: 'flores'
+    redirectTo: 'dedicatoria'
   }
 ];
