@@ -1,0 +1,45 @@
+<header>
+  <div class="container-flowers">
+    <div class="col">
+      <div class="flower flower1">
+        <div class="petals"></div>
+        <div class="center"></div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="flower flower2">
+        <div class="petals"></div>
+        <div class="center"></div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="flower flower3">
+        <div class="petals"></div>
+        <div class="center"></div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="flower flower4">
+        <div class="petals"></div>
+        <div class="center"></div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="flower flower5">
+        <div class="petals"></div>
+        <div class="center"></div>
+      </div>
+    </div>
+  </div>
+  <video #bgVideo class="bg-video" autoplay muted loop playsinline preload="auto">
+    <source src="assets/video/yellow-flowers-vertical.mp4" type="video/mp4" media="(max-width: 600px)" />
+    <source src="assets/video/yellow-flowers-square.mp4" type="video/mp4"
+      media="(min-width: 601px) and (max-width: 1024px)" />
+    <source src="assets/video/yellow-flowers-horizontal.mp4" type="video/mp4" media="(min-width: 1025px)" />
+  </video>
+  <router-outlet></router-outlet>
+</header>
